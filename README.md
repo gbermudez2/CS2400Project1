@@ -1,4 +1,4 @@
-# CS2400Project1
+# CS2400 - Project1
 
 # Names
 Drew Higashigawa, Jose Gutierrez, Gabriel Bermudez
