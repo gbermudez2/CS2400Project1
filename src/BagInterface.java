@@ -1,6 +1,6 @@
 // CS2400
 // Project 1
-// Gabriel Bermudez
+// Gabriel Bermudez, Drew Higashigawa, Jose Gutierrez, 
 
 public interface BagInterface<T>{
     public boolean add(T anEntry); // adds an item to the bag
