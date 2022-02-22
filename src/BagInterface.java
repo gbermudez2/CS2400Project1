@@ -19,9 +19,9 @@ public interface BagInterface<T>{
 
     public void display(); // displays bag
 
-    public void union(); // displays a bag that combines two existing bags
+    public void union(BagInterface<T> otherBag); // displays a bag that combines two existing bags
 
-    public void intersection(); // displays a bag that contains common items
+    public void intersection(BagInterface<T> otherBag); // displays a bag that contains common items
 
-    public void difference(); // displays a bag that removes commonalities one existing bag has with another
+    public void difference(BagInterface<T> otherBag); // displays a bag that removes commonalities one existing bag has with another
 }
