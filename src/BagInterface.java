@@ -2,6 +2,12 @@
 // Project 1
 // Gabriel Bermudez, Drew Higashigawa, Jose Gutierrez
 
+
+/*
+This interface is subject to change,
+feel free to edit if you believe there are any changes necessary
+*/
+
 public interface BagInterface<T>{
     public boolean add(T anEntry); // adds an item to the bag
 
