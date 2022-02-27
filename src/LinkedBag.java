@@ -1,15 +1,15 @@
 import java.util.Iterator;
 
 public class LinkedBag<T> implements BagInterface<T>{
-    private Node<T> firstNode;
-    private int numberOfEntries;
+    private Node<T> firstNode; // Defines the first node of the bag
+    private int numberOfEntries; // Determines the number of entries in a bag
 
     public LinkedBag(){
         firstNode = null;
         numberOfEntries = 0;
     }
 
-    public boolean add(T newEntry){
+    public boolean add(T newEntry){ // Adds a new node to the bag
         Node<T> newNode = new Node<T>(newEntry);
         newNode.next = firstNode;
         firstNode = newNode;
@@ -18,7 +18,7 @@ public class LinkedBag<T> implements BagInterface<T>{
         return true;
     }
 
-    public T remove(){
+    public T remove() throws NullPointerException { // Removes a node at the first position if possible
         T result = null;
 
         if (firstNode != null){
@@ -26,6 +26,8 @@ public class LinkedBag<T> implements BagInterface<T>{
             firstNode = firstNode.getNextNode();
             numberOfEntries--;
         }
+        else
+            throw new NullPointerException("No object to remove!"); // If there are no items, throw an error
 
         return result;
     }
