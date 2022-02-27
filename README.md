@@ -9,7 +9,7 @@ Drew -
 Jose -
 
 Gabriel -
-
+Made the LinkedBag, LinkedBagTest, and BagInterface code
 
 # Extra features
 
