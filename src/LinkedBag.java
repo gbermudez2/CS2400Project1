@@ -1,3 +1,7 @@
+// CS 2400
+// Project 1
+// Code by Gabriel Bermudez
+
 import java.util.Iterator;
 
 public class LinkedBag<T> implements BagInterface<T>{

@@ -11,7 +11,9 @@ feel free to edit if you believe there are any changes necessary
 public interface BagInterface<T>{
     public boolean add(T anEntry); // adds an item to the bag
 
-    public boolean remove(T anEntry); // removes an item from the bag
+    public T remove(); // removes an item from the bag (unspecified)
+
+    public boolean remove(T anEntry); // removes the specified item
 
     public int getCurrentSize(); // gets size of bag
 
@@ -23,11 +25,11 @@ public interface BagInterface<T>{
 
     public boolean contains(T anEntry); // checks if bag has an item
 
-    public void display(); // displays bag
+    public T[] toArray(); // displays bag
 
-    public void union(BagInterface<T> otherBag); // displays a bag that combines two existing bags
+    public BagInterface<T> union(BagInterface<T> otherBag); // displays a bag that combines two existing bags
 
-    public void intersection(BagInterface<T> otherBag); // displays a bag that contains common items
+    public BagInterface<T> intersection(BagInterface<T> otherBag); // displays a bag that contains common items
 
-    public void difference(BagInterface<T> otherBag); // displays a bag that removes commonalities one existing bag has with another
+    public BagInterface<T> difference(BagInterface<T> otherBag); // displays a bag that removes commonalities one existing bag has with another
 }
