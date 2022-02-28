@@ -4,9 +4,9 @@
 Drew Higashigawa, Jose Gutierrez, Gabriel Bermudez
 
 # Contributions
-Drew -
+Drew - Made ResizableArrayBag code
 
-Jose -
+Jose - 
 
 Gabriel -
 Made the LinkedBag, LinkedBagTest, and BagInterface code
