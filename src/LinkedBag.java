@@ -2,8 +2,6 @@
 // Project 1
 // Code by Gabriel Bermudez
 
-import java.util.Iterator;
-
 public class LinkedBag<T> implements BagInterface<T>{
     private Node<T> firstNode; // Defines the first node of the bag
     private int numberOfEntries; // Determines the number of entries in a bag
