@@ -13,6 +13,5 @@ Big O notations and explanations
 Gabriel -
 Made the LinkedBag, LinkedBagTest, and BagInterface code
 
-# Extra features
-
 # Video link
+https://www.youtube.com/watch?v=t-vp8lYdPHo
