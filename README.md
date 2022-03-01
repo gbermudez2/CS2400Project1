@@ -4,9 +4,11 @@
 Drew Higashigawa, Jose Gutierrez, Gabriel Bermudez
 
 # Contributions
-Drew - Made ResizableArrayBag code
+Drew -
+Made ResizableArrayBag and ArrayBagTest code
 
-Jose - 
+Jose -
+Big O notations and explanations
 
 Gabriel -
 Made the LinkedBag, LinkedBagTest, and BagInterface code
